@@ -1,0 +1,3 @@
+toc_import_homepage:
+    path:     /
+    defaults: { _controller: TOCImportBundle:Default:index }

@@ -1,0 +1,14 @@
+services:
+  toc_import.importcsv:
+      class: TOC\ImportBundle\Services\ImportCsvService
+
+  toc_import.importjson:
+      class: TOC\ImportBundle\Services\ImportJsonService
+
+  toc_import.importxlsx:
+      class: TOC\ImportBundle\Services\ImportXlsxService
+
+#    toc_import.example:
+#        class: TOC\ImportBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+
